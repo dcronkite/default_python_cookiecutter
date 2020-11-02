@@ -1,0 +1,19 @@
+[build-system]
+requires = ['flit_core >=2,<4']
+build-backend = 'flit_core.buildapi'
+
+[tool.flit.metadata]
+module = '{{cookiecutter.project}}'
+author = '{{cookiecutter.author}}'
+author-email = '{{cookiecutter.author}}+pypi@gmail.com'
+home-page = 'https://github.com/{{cookiecutter.author}}/{{cookiecutter.project}}'
+requires = []
+requires-python = '>={{cookiecutter.python_version}}'
+description-file = 'README.rst'
+classifiers = [
+    'License :: OSI Approved :: MIT License',
+    'Development Status :: 1 - Planning',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: {{cookiecutter.python_version}}',
+    'Intended Audience :: Science/Research',
+]
