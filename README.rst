@@ -43,20 +43,14 @@ Prerequisites
 
 -  Python 3.7+
 
-Installation
-------------
-
-Install using pip:
-
-``pip install default_python_cookiecutter``
 
 Usage
 =====
 
 Used with cookiecutter (see here: https://cookiecutter.readthedocs.io/)
 
-* `pip install cookiecutter`
-* `cookiecutter gh:dcronkite/default_python_cookiecutter`
+- `pip install cookiecutter`
+- `cookiecutter gh:dcronkite/default_python_cookiecutter`
 
 
 Versions
