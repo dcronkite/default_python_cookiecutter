@@ -9,7 +9,7 @@
       <h3 align="center">{{cookiecutter.project}}</h3>
 
       <p>
-       Description.
+      {{cookiecutter.description}}
       </p>
 
 
@@ -32,7 +32,7 @@ Table of Contents
 About the Project
 =================
 
-Description.
+{{cookiecutter.description}}
 
 
 Getting Started
